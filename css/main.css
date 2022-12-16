@@ -921,6 +921,8 @@ a,ul,li {
     margin-bottom: 14px;
     padding: 16px 0 13px 22px;
 }
+
+
 .email_input {
     width: 375px;
     font-weight: 400;
@@ -934,6 +936,15 @@ a,ul,li {
     margin-bottom: 14px;
     padding: 16px 0 13px 22px;
 }
+.email_input:not(:focus):valid{
+    border: 2px solid  #90EE90;
+    border-radius: 5px;
+}
+.email_input:invalid{
+    border: 2px solid #FF6347;
+    border-radius: 5px;
+}
+
 .labell{
     width: 375px;
     background: #FFFFFF;
