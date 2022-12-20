@@ -1,0 +1,131 @@
+/**** FAQ PAGE START */
+body{
+    position: relative;
+}
+
+.cat_img{
+    position: absolute;
+    top: -190px;
+    right: 120px;
+    z-index: 99;
+    width: 569px;
+    height: 466px;
+}
+
+.bird_img{
+    position: absolute;
+    bottom: -690px;
+    right: 0;
+}
+
+.information_section {
+    margin-top: 218px;
+}
+.information_wrapper {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-left: 120px;
+}
+.first_top_box {
+    position: relative;
+    margin-bottom: 63px;
+}
+.faq {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 27px;
+}
+.FAQ_desc {
+    width: 447px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin: 0;
+    margin-bottom: 45px;
+}
+.info_btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 15px 38px 14px 45px;
+    color: #FFFFFF;
+    background: #78C0DE;
+    border-radius: 3px;
+}
+
+.info_btn::before{
+    position: absolute;
+    top: 197px;
+    left: 17px;
+    content: url(/images/subscriy.svg);
+}
+
+.info_list{
+    margin-bottom: 270px;
+}
+.info_items {
+    width: 752px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    padding: 25px 41px 32px 63px;
+    margin-bottom: 18px;
+}
+
+.info_items:nth-child(even) > .summary_title_box::before{
+    content: url(/images/blue_pet.svg);
+    margin-right: 7px;
+}
+
+.summary_title_box {
+    display: flex;
+    align-items: center;
+}
+.summary_title_box::before{
+    content: url(/images/pet.svg);
+    margin-right: 7px;
+}
+.time_faq_page{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    margin-right: 28px;
+}
+.info_desc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #78C0DE;
+}
+.detalis[open] .open_sumary{
+    transform: rotate(180deg);
+}
+.sumary {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+}
+.open_sumary {
+    margin-left: 133px;
+}
+.sumary_desc {
+    width: 577px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+
+/**** FAQ PAGE START */
